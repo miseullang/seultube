@@ -30,3 +30,6 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 ### 기타 메모
 App.js 기본값으로 초기화 : rafce
 자동완성이 안 되는 경우 ES7 React/Redux/GraphQL/React-Native snippets 익스텐션 설치
+
+내부 링크는 Link, 외부 링크는 a 태그를 사용하되 보안과 관련된 속성 지정
+rel='noopener noreferrer'
