@@ -28,8 +28,13 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 - swiper를 설치합니다. `npm install swiper`
 
 ### 기타 메모
-App.js 기본값으로 초기화 : rafce
+1. App.js 기본값으로 초기화 : rafce
 자동완성이 안 되는 경우 ES7 React/Redux/GraphQL/React-Native snippets 익스텐션 설치
 
-내부 링크는 Link, 외부 링크는 a 태그를 사용하되 보안과 관련된 속성 지정
+2. 내부 링크는 Link, 외부 링크는 a 태그를 사용하되 보안과 관련된 속성 지정
 rel='noopener noreferrer'
+
+3. SEO 설정
+리액트는 SPA이기 때문에 SEO에 대한 노출이 약한 편입니다.
+이를 극복하기 위해 페이지 별로 페이지에 대한 설명이나 타이틀을 작업합니다.
+이 작업을 위해 react-helmet-async 라이브러리가 설치합니다.
